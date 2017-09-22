@@ -1,3 +1,3 @@
 # Richard-Strauss---Salome-
-Comparative analysis of tempo in three interpretations by Herbert von Karajan and Hans-Martin Schneidt in an opera excerpt.
-NOTE: Audio samples doesn't work in all browsers (e.g. Firefox).
+Comparative analysis of tempo in three interpretations by Herbert von Karajan and Hans-Martin Schneidt in an opera excerpt with the aid of Sonic Visualizer.
+NOTE: Audio samples doesn't work in all browsers (e.g. Firefox), Chrome is recommended.
