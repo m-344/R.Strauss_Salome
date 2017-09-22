@@ -1,0 +1,43 @@
+<!ELEMENT analysis (head, piece+, method, img?, results, img?) >
+<!ELEMENT head (#PCDATA) >
+<!ELEMENT piece (composer, title, recording+) >
+<!ELEMENT composer (firstName, middleName, lastName) >
+<!ELEMENT firstName (#PCDATA) >
+<!ELEMENT middleName (#PCDATA) >
+<!ELEMENT lastName (#PCDATA) >
+<!ATTLIST composer nationality CDATA #IMPLIED >
+<!ELEMENT title (mainTitle|subTitle|opus|year|excerpt)* >
+<!ATTLIST title genre CDATA #REQUIRED>
+<!ELEMENT mainTitle (#PCDATA) >
+<!ELEMENT subTitle (#PCDATA) >
+<!ELEMENT excerpt (#PCDATA) >
+<!ELEMENT opus (#PCDATA) >
+<!ELEMENT year (#PCDATA) >
+<!ELEMENT recording (conductor?, orchestra?, recordingPlace?, recordingDate*, label?, img?)>
+<!ATTLIST recording id NMTOKEN #REQUIRED >
+<!ELEMENT conductor (firstName, middleName?, lastName) >
+<!ELEMENT orchestra (orchestraName,orchestraPlace?) >
+<!ELEMENT orchestraName (#PCDATA) >
+<!ELEMENT orchestraPlace (orchestraCountry, orchestraCity) >
+<!ELEMENT orchestraCountry (#PCDATA) >
+<!ELEMENT orchestraCity (#PCDATA) >
+<!ELEMENT recordingPlace (studio?, recordingCountry?, recordingCity?) >
+<!ELEMENT studio (#PCDATA) >
+<!ELEMENT recordingCountry (#PCDATA) >
+<!ELEMENT recordingCity (#PCDATA) >
+<!ELEMENT recordingDate (day?, month?, year?) >
+<!ATTLIST recordingDate dayNumber NMTOKEN #IMPLIED >
+<!ELEMENT day (#PCDATA) >
+<!ELEMENT month (#PCDATA) >
+<!ELEMENT label (labelName?, labelPlace?, labelTime?) >
+<!ELEMENT labelName (#PCDATA) >
+<!ELEMENT labelPlace (#PCDATA) >
+<!ELEMENT labelTime (#PCDATA) >
+<!ELEMENT img EMPTY >
+<!ATTLIST img src CDATA #REQUIRED >
+<!ELEMENT method (#PCDATA) >
+<!ELEMENT results (#PCDATA) >
+
+
+
+

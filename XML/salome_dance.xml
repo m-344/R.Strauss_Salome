@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE analysis SYSTEM "salome_dance.dtd">
+<analysis>
+    <head>Vergleichsanalyse vom Tempo</head>
+    <piece>
+        <composer>
+            <firstName>Richard</firstName>
+            <middleName/>
+            <lastName>Strauss</lastName>
+        </composer>
+        <title genre="opera">
+            <mainTitle>Salome</mainTitle>
+            <opus>54</opus>
+            <excerpt>Tanz der sieben Schleier, wieder erstes Zeitmass (ziemlich langsam), Takte:
+                [P+7]-[R+7]</excerpt>
+        </title>
+        <recording id="r001">
+            <conductor>
+                <firstName>Herbert</firstName>
+                <middleName>von</middleName>
+                <lastName>Karajan</lastName>
+            </conductor>
+            <orchestra>
+                <orchestraName>Amsterdam Concertgebouw Orchestra</orchestraName>
+            </orchestra>
+            <recordingDate>
+                <month>September</month>
+                <year>1943</year>
+            </recordingDate>
+            <label>
+                <labelName>TIM The international Music Company AG</labelName>
+                <labelPlace>Hamburg, Germany</labelPlace>
+                <labelTime>2003</labelTime>
+            </label>
+            <img src="img/K43.png"/>
+        </recording>
+        <recording id="r002">
+            <conductor>
+                <firstName>Herbert</firstName>
+                <middleName>von</middleName>
+                <lastName>Karajan</lastName>
+            </conductor>
+            <orchestra>
+                <orchestraName>Berliner Philharmoniker</orchestraName>
+            </orchestra>
+            <recordingPlace>
+                <studio>Jesus-Christus-Kirche</studio>
+                <recordingCity>Berlin</recordingCity>
+            </recordingPlace>
+            <!--  <recordingDate dayNumber="d01">
+                <day>7/9</day>
+                <month>Dezember</month>
+                <year>1972</year>
+            </recordingDate>-->
+            <recordingDate dayNumber="d02">
+                <day>8</day>
+                <month>Jänner</month>
+                <year>1973</year>
+            </recordingDate>
+            <label>
+                <labelName>Deutsche Grammophon</labelName>
+            </label>
+            <img src="img/K73.png"/>
+        </recording>
+        <recording id="r003">
+            <conductor>
+                <firstName>Hans-Martin</firstName>
+                <lastName>Schneidt</lastName>
+            </conductor>
+            <orchestra>
+                <orchestraName>Radio-Symphonie-Orchester Berlin</orchestraName>
+            </orchestra>
+            <recordingPlace>
+                <studio>Philharmonie Berlin</studio>
+            </recordingPlace>
+            <recordingDate>
+                <day>10</day>
+                <month>Juni</month>
+                <year>1989</year>
+            </recordingDate>
+            <label>
+                <labelName>CAPRICCIO</labelName>
+                <labelPlace>Königsdorf</labelPlace>
+                <labelTime>1991</labelTime>
+            </label>
+            <img src="img/Sch89.png"/>
+        </recording>
+    </piece>
+    <method>Die Hauptschläge wurden Mithilfe von der Software Sonic Visualizer
+        manuell synchronisiert. Die Daten wurden nach Excel exportiert und in einem Graph
+        dargestellt. Y-Achse: Tempomaß in MM, X-Achse jeweils erster Schlag der korrespondierenden
+        Takte. Der zweite und der dritte Taktschlag (z.B. 1.2 und 1.3) sind auf der X-Achse nicht
+        explizit angeführt, sind jedoch auf dem Graph zu finden.</method>
+    <img src="img/Tempo%20Graph.png"/>
+    <results>Es wird ersichtlich, dass die früheren Aufnahmen zu einem schnelleren Tempo tendieren,
+        wobei der Unterschied zwischen den Aufnahmen aus den Jahren 1973 und 1989 weniger
+        signifikant als zu der Aufnahme aus dem Jahr 1943 ist. </results>
+</analysis>

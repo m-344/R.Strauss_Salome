@@ -1,0 +1,56 @@
+body {
+    background-color: #ffffff; 
+    font-family: "Times New Roman", serif;
+    padding:2em;
+    }
+    
+h1 {
+    color:#b30000;
+}    
+
+figure {
+    display: inline-block;   
+    float:right;  
+    /*position:absolute;
+    left:60%;
+    top:25em;*/
+}
+
+/*figure figcaption {    
+    text-align: center;
+    color: #000066;
+    padding:5px;
+    
+}*/
+
+#explanation {
+    width:550px;
+    padding-top:10px; 
+    text-align: justify;
+    margin-bottom:3em;
+}
+
+#partitur { 
+   padding-left:200px;
+    padding-right:200px;
+    padding-top:1px;
+    padding-bottom:1px;
+    border:solid;
+    color: #660000;
+}
+a:link {
+    color: #660000;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+}
+/*a:visited{
+    color:#ffa31a;
+}*/
+footer {
+    margin-top: 10em;
+    text-align:center;
+}
+
+
